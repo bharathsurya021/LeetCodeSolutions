@@ -13,3 +13,9 @@ class MyQueue:
 
     def pop(self):
         return self.stack1.pop()
+
+    def peek(self):
+        return self.stack1[-1]
+
+    def empty(self):
+        return not self.stack1
